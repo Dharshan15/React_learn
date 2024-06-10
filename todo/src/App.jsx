@@ -49,11 +49,10 @@ function App() {
   }, [])
 
   return (
-    <>
-      
+    <>      
+      <Analytics/>
       <TodoInput todoValue={todoValue} setTodoValue={setTodoValue} handleAddTodos={handleAddTodos} />
       <TodoList handleEditTodo={handleEditTodo} handleDeleteTodo={handleDeleteTodo} todos={todos} />
-      <Analytics/>
     </>
   )
 }
