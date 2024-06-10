@@ -1,3 +1,5 @@
+import { Analytics } from "@vercel/analytics/react"
+
 import { useState, useEffect } from "react"
 import TodoInput from "./components/TodoInput"
 import TodoList from "./components/TodoList"
@@ -51,6 +53,7 @@ function App() {
       
       <TodoInput todoValue={todoValue} setTodoValue={setTodoValue} handleAddTodos={handleAddTodos} />
       <TodoList handleEditTodo={handleEditTodo} handleDeleteTodo={handleDeleteTodo} todos={todos} />
+      <Analytics/>
     </>
   )
 }
