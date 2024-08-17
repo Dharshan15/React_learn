@@ -6,6 +6,7 @@ export default function TodoList(props) {
 
 
     return (
+        <>
         <ul className='main'>
             {todos.map((todo, todoIndex) => {
                 return (
@@ -15,5 +16,10 @@ export default function TodoList(props) {
                 )
             })}
         </ul>
+        <div className="donate">
+            <a className="donate1" href="https://buymeacoffee.com/dharshan15" target='blank'>Donate</a>
+        </div>
+        </>
+        
     )
 }

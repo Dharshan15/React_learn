@@ -13,6 +13,17 @@
     padding: 25px;
 }
 
+.donate{
+  text-align: center;
+  bottom: 0;
+}
+
+.donate1{
+  font-size: small;
+  text-decoration: none;
+  bottom: 0;
+}
+
 h1,
 h2,
 h3,
